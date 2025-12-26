@@ -1,8 +1,8 @@
 import os
 from aiogram import Bot, Dispatcher, executor, types
 
-BOT_TOKEN = os.getenv("8426814098:AAHcy888nwH6P7cf3tS_7sxI9LYX8jz4n_w")
-ADMIN_ID = int(os.getenv("7541414412"))
+BOT_TOKEN = os.getenv(8426814098:AAHcy888nwH6P7cf3tS_7sxI9LYX8jz4n_w)
+ADMIN_ID = int(os.getenv(7541414412))
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
